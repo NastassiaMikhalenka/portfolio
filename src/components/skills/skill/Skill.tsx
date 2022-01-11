@@ -8,8 +8,8 @@ type PropsType = {
 
 export const Skill = (props: PropsType) => {
     return (
-        <div className={classes.skill}>
-            <div className={classes.icon}></div>
+        <div className={classes.skillWrapper}>
+            <div className={classes.iconSkill}></div>
             <h3>{props.title}</h3>
             <span className={classes.description}>{props.description}</span>
         </div>

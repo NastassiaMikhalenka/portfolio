@@ -3,7 +3,7 @@
     background-color: #4ca9ff;
 }
 
-.container {
+.containerMain {
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -18,8 +18,15 @@
     background-color: #ffffff;
 }
 
-.photo {
+.photoMain {
     width: 300px;
     height: 400px;
     background-color: #ffffff;
+}
+
+
+@media (max-width: 750px) {
+    .containerMain {
+        justify-content: center;
+    }
 }

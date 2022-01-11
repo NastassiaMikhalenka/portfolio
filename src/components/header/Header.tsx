@@ -5,8 +5,8 @@ import {Navigation} from "../navigation/Navigation";
 
 export const Header = () => {
     return (
-        <div className={classes.header}>
+        <header className={classes.header}>
             <Navigation/>
-        </div>
+        </header>
     )
 }

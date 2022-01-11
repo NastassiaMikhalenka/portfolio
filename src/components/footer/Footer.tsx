@@ -6,8 +6,8 @@ import {Project} from "../projects/project/Project";
 export const Footer = () => {
     return (
         <footer className={classes.footerBlock}>
-            <div className={classes.container}>
-                <h2 className={classes.title}>Links</h2>
+            <div className={classes.containerFooter}>
+                <h2 className={classes.titleFooter}>Links</h2>
                 <div className={classes.linksWrapper}>
                     <p><a href={`https://github.com/NastassiaMikhalenka`}><img
                         src={`https://www.veryicon.com/download/png/application/outline-1/github-58?s=256`} width="50"
