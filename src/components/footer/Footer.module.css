@@ -1,6 +1,6 @@
-.skillsBlock {
-    min-height: 100vh;
-    background-color: #ff9d79;
+.footerBlock {
+    min-height: 200px;
+    background-color: #b3d2c6;
 }
 
 .container {
@@ -17,7 +17,7 @@
     background-color: #c9c9c9;
 }
 
-.skills {
+.linksWrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;

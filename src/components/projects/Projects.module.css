@@ -1,6 +1,6 @@
-.skillsBlock {
+.projectsBlock {
     min-height: 100vh;
-    background-color: #ff9d79;
+    background-color: #b3d2c6;
 }
 
 .container {
@@ -17,9 +17,9 @@
     background-color: #c9c9c9;
 }
 
-.skills {
+.projects {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
