@@ -12,7 +12,7 @@ export const Skills = () => {
                     <Skill title={"HTML"}
                            description={"established fact that a reader will be distracted by the readable content of a page when looking at its layout."}/>
                     <Skill title={"CSS"}
-                           description={"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}/>
+                           description={" will be distracted by the readable content of a page when looking at its layout."}/>
                     <Skill title={"JS"}
                            description={"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}/>
                 </div>
