@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+/* font-family: 'Inter', sans-serif;*/
+/* #4338CA фиолетовый*/
+/* #FEF2F2 нежно розовый*/
+/* #6B7280 серый */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body {
+    max-width: 1440px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.App {
+    width: 80%;
+    margin: auto;
+}
+
+

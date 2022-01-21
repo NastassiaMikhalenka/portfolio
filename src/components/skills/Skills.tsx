@@ -9,12 +9,15 @@ export const Skills = () => {
             <div className={classes.containerSkills}>
                 <h2 className={classes.titleSkills}>Skills</h2>
                 <div className={classes.skillsWrapper}>
-                    <Skill title={"HTML"}
-                           description={"established fact that a reader will be distracted by the readable content of a page when looking at its layout."}/>
-                    <Skill title={"CSS"}
-                           description={" will be distracted by the readable content of a page when looking at its layout."}/>
-                    <Skill title={"JS"}
-                           description={"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                    <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
                 </div>
             </div>
         </section>

@@ -1,14 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import classes from './navigation.module.css'
 
 
 export const Navigation = () => {
     return (
         <nav className={classes.navigation}>
-            <a href={"s"}>Главная</a>
-            <a href={"s"}>Скиллы</a>
-            <a href={"s"}>Проекты</a>
-            <a href={"s"}>Контакты</a>
+            <a href={"s"}>Home</a>
+            <a href={"s"}>Skills</a>
+            <a href={"s"}>Works</a>
+            <a href={"s"}>Contacts</a>
         </nav>
     )
 }
