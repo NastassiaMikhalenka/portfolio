@@ -5,6 +5,8 @@ type PropsType = {
     title?: string
     description?: string
     icon: string
+    link?: string
+    nameLink?: string
 }
 
 export const Skill = (props: PropsType) => {
@@ -15,6 +17,7 @@ export const Skill = (props: PropsType) => {
             </div>
             <h3>{props.title}</h3>
             <span className={classes.description}>{props.description}</span>
+            <a href={props.link}>{props.nameLink}</a>
         </div>
     )
 }

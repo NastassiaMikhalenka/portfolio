@@ -107,10 +107,10 @@
 }
 
 .photoMain {
-    width: 350px;
-    height: 450px;
-    /*background-color: #ffa9a9;*/
-    background: url('https://image.freepik.com/free-photo/vertical-shot-of-the-skogafoss-waterfall-in-iceland-on-a-gloomy-day_181624-33322.jpg');
+    /*width: 350px;*/
+    /*height: 450px;*/
+    background-color: #ffa9a9;
+    /*background: url('https://image.freepik.com/free-photo/vertical-shot-of-the-skogafoss-waterfall-in-iceland-on-a-gloomy-day_181624-33322.jpg');*/
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 6px;
 }
