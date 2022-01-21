@@ -1,12 +1,12 @@
 .mainBlock {
     height: 100vh;
-    background-color: #4ca9ff;
+    background-color: #ffffff;
 }
 
 .containerMain {
     height: 100%;
-    width: 80%;
-    margin: 0 auto;
+    /*width: 80%;*/
+    /*margin: 0 auto;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,16 +14,106 @@
 }
 
 .greetings {
-    width: 300px;
+    width: 400px;
     background-color: #ffffff;
+}
+
+.greetings_ContainerName {
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+}
+
+.greetings_Name {
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4338CA;
+}
+
+.greetings_ContainerName:before,
+.greetings_ContainerName:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    height: 1px;
+    background-color: #4338CA;
+    position: relative;
+}
+
+.greetings_ContainerName:before {
+    margin-left: -115%;
+    left: -14px;
+}
+
+.greetings_ContainerName:after {
+    margin-right: -90%;
+    right: -14px;
+    background-color: #ffffff;
+}
+
+.greetings_Vac {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 72px;
+    color: #1F2937;
+}
+
+.greetings_Text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6B7280;
+}
+
+.greetings_ButtonHireMe,
+.greetings_ButtonReadMore {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 8px 28px;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
+
+.greetings_ButtonHireMe {
+    background-color: #3730A3;
+    color: #ffffff;
+    border: 1px solid #3730A3;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.greetings_ButtonReadMore {
+    background-color: #ffffff;
+    border: 1px solid #3730A3;
+    box-sizing: border-box;
+    color: #3730A3;
+}
+
+.greetings_TextBottom {
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B7280;
 }
 
 .photoMain {
-    width: 300px;
-    height: 400px;
-    background-color: #ffffff;
+    width: 350px;
+    height: 450px;
+    /*background-color: #ffa9a9;*/
+    background: url('https://image.freepik.com/free-photo/vertical-shot-of-the-skogafoss-waterfall-in-iceland-on-a-gloomy-day_181624-33322.jpg');
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 6px;
 }
-
 
 @media (max-width: 750px) {
     .containerMain {
