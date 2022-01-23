@@ -4,13 +4,11 @@ import arrow_right from './../../assets/Skills/arrow-right.png'
 
 
 type PropsType = {
-    title?: string
-    description: string
-    images: any
+    project: any
 }
 
-export const Project = (props: PropsType) => {
-    const [imageData] = useState(props.images);
+export const Project = ({project}: PropsType) => {
+    const [imageData] = useState(project.image);
     const [current, setCurrent] = useState(0);
     const [quote, getQuote] = useState(imageData[current])
 
@@ -43,9 +41,18 @@ export const Project = (props: PropsType) => {
                     <a onClick={prevQuote} className={classes.prev} id="prev">&#10094;</a>
                     <a onClick={nextQuote} className={classes.next} id="next">&#10095;</a>
                 </div>
-                <h2>{props.title}</h2>
+                <h2 className={classes.titleProject}>{project.title}</h2>
                 <div className={classes.description}>
-                    <p>{props.description}</p>
+                    <div>
+                        <p className={classes.descriptionText}>{project.description}</p>
+                        {
+                            project.stacks.map((stack: any) => {
+                                return (
+                                    <span className={classes.stackText}>{stack} </span>
+                                )
+                            })
+                        }
+                    </div>
                     <img src={arrow_right} alt={"2"}/>
                 </div>
             </div>
