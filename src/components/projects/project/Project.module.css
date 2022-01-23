@@ -16,32 +16,41 @@
 
 .iconProject {
     width: 100%;
-    height: 200px;
-    /*background-color: #e0ffe6;*/
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-    /*background-image: url("https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear2.jpeg");*/
-    background-size: cover;
-    background-position: center;
-    /*margin-bottom: 20px;*/
+    align-items: center;
+    position: relative;
 }
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    color: #6B7280;
+    font-size: 30px;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev{
+    position: absolute;
+    border-radius: 3px 0 0 3px;
+    left: 0;
+}
+
+
 .iconProject img{
     width: 100%;
     height: 100%;
-
-    /*background-size: cover;*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
     margin-bottom: 20px;
 }
 
 .description{
-    /*border: 1px solid #3730a3;*/
     display: flex;
     align-items: center;
-    /*padding: 5px;*/
     text-align: left;
 }
 
