@@ -14,12 +14,8 @@ export const Skills = () => {
                 <h2 className={classes.titleSkills}>Skills</h2>
                 <div className={classes.skillsWrapperContainer}>
                     <div className={classes.skillsWrapper}>
-                        <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}
-                               description={'It has survived not only five centuries,'}/>
-                        <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
-                        <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
-                        <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
-                        <Skill icon={"https://img.icons8.com/ios/50/000000/javascript--v1.png"}/>
+                        <Skill />
+
                     </div>
                     <div className={classes.wrapperContainerCV}>
                         <img src={CVDone} alt={'CV'}/>

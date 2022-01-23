@@ -1,6 +1,6 @@
 .project {
-    width: 250px;
-    background-color: burlywood;
+    width: 300px;
+    /*background-color: #b91818;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,17 +8,43 @@
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
+    /*padding-bottom: 20px;*/
+    /*padding: 5px;*/
+    border: 1px solid #3730a3;
+    border-radius: 6px;
 }
 
 .iconProject {
     width: 100%;
     height: 200px;
-    background-color: #e0ffe6;
+    /*background-color: #e0ffe6;*/
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url("https://st3.depositphotos.com/1010735/31707/v/600/depositphotos_317075756-stock-illustration-realistic-black-laptop-mockup-with.jpg");
+    align-items: flex-end;
+    justify-content: flex-end;
+    /*background-image: url("https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear2.jpeg");*/
     background-size: cover;
     background-position: center;
+    /*margin-bottom: 20px;*/
+}
+.iconProject img{
+    width: 100%;
+    height: 100%;
+
+    /*background-size: cover;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    margin-bottom: 20px;
+}
+
+.description{
+    /*border: 1px solid #3730a3;*/
+    display: flex;
+    align-items: center;
+    /*padding: 5px;*/
+    text-align: left;
+}
+
+.description img{
+    cursor: pointer;
 }
