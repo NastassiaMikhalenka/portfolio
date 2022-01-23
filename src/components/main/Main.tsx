@@ -19,7 +19,7 @@ export const Main = () => {
                     <hr/>
                     <p className={classes.greetings_TextBottom}>I am currently open for full-time work.</p>
                 </div>
-                <div className={classes.photoMain}>
+                <div className={classes.photoMain} style={{margin: '20px'}}>
                 </div>
             </div>
         </main>
