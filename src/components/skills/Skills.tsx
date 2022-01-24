@@ -15,11 +15,10 @@ export const Skills = () => {
                 <div className={classes.skillsWrapperContainer}>
                     <div className={classes.skillsWrapper}>
                         <Skill />
-
                     </div>
                     <div className={classes.wrapperContainerCV}>
                         <img src={CVDone} alt={'CV'}/>
-                        <span className={classes.textCV}>Kindly take a look at my</span><a href={'https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear1.jpeg'}>CV</a>
+                        <span className={classes.textCV}>Kindly take a look at my <a href={'https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear1.jpeg'} target='_blank'>CV</a></span>
                     </div>
                 </div>
             </div>
