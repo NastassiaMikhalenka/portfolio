@@ -8,7 +8,6 @@ import redux from '../../assets/Skills/redux.png';
 import react from '../../assets/Skills/react.png';
 
 
-
 export const Skill = () => {
     return (
         <div className={classes.skillWrapper}>
