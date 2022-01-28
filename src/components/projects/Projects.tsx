@@ -38,6 +38,7 @@ export const Projects = () => {
             {image: bite1,},
         ],
         stacks: ['React', 'Components', 'Props', 'Events', 'Hooks', 'Router', 'Redux', 'Store', 'Reducers', 'Actions', 'CSS', 'HTML'],
+        link: 'https://NastassiaMikhalenka.github.io/bite',
     }
 
     return (
