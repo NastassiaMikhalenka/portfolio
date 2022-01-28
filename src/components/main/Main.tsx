@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Main.module.css'
 import me1 from '../assets/Skills/me1.jpg'
 import me2 from '../assets/Skills/me2.jpg'
+import me3 from '../assets/Skills/me3.jpg'
 
 export const Main = () => {
     return (
