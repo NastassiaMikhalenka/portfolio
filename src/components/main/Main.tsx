@@ -1,10 +1,15 @@
 import React from 'react';
 import classes from './Main.module.css'
+import me1 from '../assets/Skills/me1.jpg'
+import me2 from '../assets/Skills/me2.jpg'
 
 export const Main = () => {
     return (
         <main className={classes.mainBlock}>
             <div className={classes.containerMain}>
+                <div className={classes.photoMain} style={{margin: '20px'}}>
+                    <img src={me1} alt={"#"} width={'300px'}/>
+                </div>
                 <div className={classes.greetings}>
                     <div className={classes.greetings_ContainerName}>
                         <span className={classes.greetings_Name}>Nastassia</span>
@@ -18,8 +23,6 @@ export const Main = () => {
                     </div>
                     <hr/>
                     <p className={classes.greetings_TextBottom}>I am currently open for full-time work.</p>
-                </div>
-                <div className={classes.photoMain} style={{margin: '20px'}}>
                 </div>
             </div>
         </main>

@@ -63,11 +63,11 @@ label {
     color: #6B7280;
 }
 
-input:focus ~ label, input:valid ~ label {
-    top: -20px;
-    font-size: 14px;
-    color: #4338CA;
-}
+/*input:focus ~ label, input:valid ~ label {*/
+/*    top: -20px;*/
+/*    font-size: 14px;*/
+/*    color: #4338CA;*/
+/*}*/
 
 .bar {
     position: relative;
@@ -75,26 +75,26 @@ input:focus ~ label, input:valid ~ label {
     width: 300px;
 }
 
-.bar:before, .bar:after {
-    content: '';
-    height: 1px;
-    width: 0;
-    position: absolute;
-    background: #4338CA;
-    transition: 0.6s ease all;
-}
+/*.bar:before, .bar:after {*/
+/*    content: '';*/
+/*    height: 1px;*/
+/*    width: 0;*/
+/*    position: absolute;*/
+/*    background: #4338CA;*/
+/*    transition: 0.6s ease all;*/
+/*}*/
 
-.bar:before {
-    left: 49%;
-}
+/*.bar:before {*/
+/*    left: 49%;*/
+/*}*/
 
-.bar:after {
-    right: 49%;
-}
+/*.bar:after {*/
+/*    right: 49%;*/
+/*}*/
 
-input:focus ~ .bar:before, input:focus ~ .bar:after {
-    width: 50%;
-}
+/*input:focus ~ .bar:before, input:focus ~ .bar:after {*/
+/*    width: 50%;*/
+/*}*/
 
 .highlight {
     position: absolute;
