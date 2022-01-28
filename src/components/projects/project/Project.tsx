@@ -53,7 +53,7 @@ export const Project = ({project}: PropsType) => {
                             })
                         }
                     </div>
-                    <img src={arrow_right} alt={"2"}/>
+                    <a href={project.link} target="_blank"><img src={arrow_right} alt={"2"}/></a>
                 </div>
             </div>
         </div>
