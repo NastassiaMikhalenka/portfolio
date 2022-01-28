@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0f25b86b.css",
-    "main.js": "/portfolio/static/js/main.fd39a393.js",
+    "main.js": "/portfolio/static/js/main.20c3d9d7.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/me1.jpg": "/portfolio/static/media/me1.6b76567092a05d0b8691.jpg",
+    "static/media/Trevland1.jpeg": "/portfolio/static/media/Trevland1.2a3b1e64d9cb990e92e7.jpeg",
+    "static/media/Trevland2.jpeg": "/portfolio/static/media/Trevland2.9f276523c0b265924565.jpeg",
+    "static/media/bite3.jpeg": "/portfolio/static/media/bite3.4210071130a465a72f64.jpeg",
+    "static/media/bite4.jpeg": "/portfolio/static/media/bite4.42ea461f5baa0f2a25a5.jpeg",
+    "static/media/Trevland3.jpeg": "/portfolio/static/media/Trevland3.8189a32ba14065640ac1.jpeg",
+    "static/media/bite2.jpeg": "/portfolio/static/media/bite2.36328680616ac0e17948.jpeg",
+    "static/media/bite1.jpeg": "/portfolio/static/media/bite1.511ed78e7dbd0715b9eb.jpeg",
     "index.html": "/portfolio/index.html",
     "main.0f25b86b.css.map": "/portfolio/static/css/main.0f25b86b.css.map",
-    "main.fd39a393.js.map": "/portfolio/static/js/main.fd39a393.js.map",
+    "main.20c3d9d7.js.map": "/portfolio/static/js/main.20c3d9d7.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f25b86b.css",
-    "static/js/main.fd39a393.js"
+    "static/js/main.20c3d9d7.js"
   ]
 }
