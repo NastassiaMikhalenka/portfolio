@@ -42,7 +42,7 @@ export const Projects = () => {
     }
 
     return (
-        <section className={classes.projectsBlock}>
+        <section className={classes.projectsBlock} id={'projects'}>
             <div className={classes.containerProjects}>
                 <h2 className={classes.titleProjects}>Projects</h2>
                 <div className={classes.projects}>

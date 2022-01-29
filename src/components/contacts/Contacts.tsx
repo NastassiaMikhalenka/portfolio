@@ -3,7 +3,7 @@ import classes from './Contacts.module.css'
 
 export const Contacts = () => {
     return (
-        <section className={classes.contactsBlock}>
+        <section className={classes.contactsBlock} id={'contacts'}>
             <div className={classes.containerContacts}>
                 <h2 className={classes.titleContacts}>Contact with me</h2>
                 <form method="post" className={classes.formContacts}>
