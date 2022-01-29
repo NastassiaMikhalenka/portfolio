@@ -48,10 +48,11 @@ width: 50%;
 .wrapperContainerCV a {
     text-decoration:none;
     color: #4338CA;
+    border-bottom: 1px solid #4338CA;
 }
 
 .wrapperContainerCV a:hover {
-    border-bottom: 1px solid #4338CA;
+    font-weight: bold;
 }
 .textCV{
     font-style: normal;

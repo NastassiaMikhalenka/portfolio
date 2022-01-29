@@ -5,10 +5,10 @@ import classes from './navigation.module.css'
 export const Navigation = () => {
     return (
         <nav className={classes.navigation}>
-            <a href={"s"}>Home</a>
-            <a href={"s"}>Skills</a>
-            <a href={"s"}>Works</a>
-            <a href={"s"}>Contacts</a>
+            <a href={"#home"}>Home</a>
+            <a href={"#skills"}>Skills</a>
+            <a href={"#projects"}>Works</a>
+            <a href={"#contacts"}>Contacts</a>
         </nav>
     )
 }

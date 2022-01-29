@@ -9,7 +9,7 @@ import CVDone from '../assets/Skills/CVdone.png'
 
 export const Skills = () => {
     return (
-        <section className={classes.skillsBlock}>
+        <section className={classes.skillsBlock} id={'skills'}>
             <div className={classes.containerSkills}>
                 <h2 className={classes.titleSkills}>Skills</h2>
                 <div className={classes.skillsWrapperContainer}>

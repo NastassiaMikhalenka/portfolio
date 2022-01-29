@@ -82,6 +82,7 @@
     padding: 8px 28px;
     cursor: pointer;
     margin: 20px 0 20px 0;
+    transition: 0.3s linear;
 
     font-style: normal;
     font-weight: 500;
@@ -102,6 +103,15 @@
     border: 1px solid #3730A3;
     box-sizing: border-box;
     color: #3730A3;
+}
+
+.greetings_ButtonHireMe:hover{
+    background-color: #6860d3;
+    border: 1px solid #6860d3;
+}
+.greetings_ButtonReadMore:hover{
+    background-color: #EEEBFF;
+    border: 1px solid #EEEBFF;
 }
 
 .greetings_TextBottom {
@@ -143,8 +153,8 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 368px) {
     .greetings_Vac {
-        font-size: 27px;
+        font-size: 25px;
     }
 }

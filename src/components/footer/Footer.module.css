@@ -21,11 +21,16 @@
     flex-wrap: wrap;
 }
 
-.linksWrapper p {
-    padding: 10px;
-}
-
 .linksWrapper img {
     width: 35px;
     height: 35px;
+}
+
+.linkContainer{
+    padding: 10px 10px 0 10px;
+    /*border: 1px solid;*/
+    border-radius: 50%;
+}
+.linkContainer:hover {
+    background-color: #EEEBFF
 }

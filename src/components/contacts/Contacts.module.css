@@ -140,6 +140,12 @@ textarea::placeholder {
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    transition: 0.3s linear;
+}
+
+.sendBtn:hover {
+    background-color: #6860d3;
+    border: 1px solid #6860d3;
 }
 
 @media (max-width: 524px) {
