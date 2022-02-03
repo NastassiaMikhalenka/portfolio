@@ -20,7 +20,7 @@ export const Main = () => {
                         If you are looking for FE developer to build your brands and grow your business Let’s shake hands with me.</p>
                     <div className={classes.greetings_ContainerButtons}>
                         <button className={classes.greetings_ButtonHireMe}>Hire me</button>
-                        <button className={classes.greetings_ButtonReadMore} id={'skills'}>Read more</button>
+                        <button className={classes.greetings_ButtonReadMore}>Read more</button>
                     </div>
                     <hr/>
                     <p className={classes.greetings_TextBottom}>I am currently open for full-time work.</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Header.module.css'
+import classes from './Header.module.scss'
 import {Navigation} from "../navigation/Navigation";
 import Ellipse from '../assets/Header/Ellipse.png'
 
