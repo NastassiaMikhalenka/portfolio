@@ -49,6 +49,9 @@ export const Projects = () => {
                     <Project project={project1}/>
                     <Project project={project2}/>
                     <Project project={project3}/>
+                    <Project project={project1}/>
+                    <Project project={project2}/>
+                    <Project project={project3}/>
                 </div>
             </div>
         </section>
