@@ -1,5 +1,5 @@
 .project {
-    width: 300px;
+    /*width: 300px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,21 +7,21 @@
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
-    border: 1px solid #3730a3;
+    /*border: 1px solid #3730a3;*/
     border-radius: 6px;
-    opacity: 0.8;
-    /*height: 400px*/
-    /*height: 350px;*/
-}
-
-.project:hover {
-    opacity: 1;
+    position: relative;
+    height: 220px;
+    width: 300px;
+    overflow: hidden;
+    background-color: #FEF2F2;
+    transition: all 0.2s linear;
 }
 
 .iconProject {
     width: 100%;
     align-items: center;
     position: relative;
+    z-index: 9999;
 }
 
 .prev, .next {
@@ -49,6 +49,7 @@
 .iconProject img {
     width: 100%;
     height: 100%;
+
 }
 
 .titleProject {
@@ -56,13 +57,14 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    color: #1F2937;
+    color: white;
 }
 
 .description {
     display: flex;
     align-items: center;
     text-align: left;
+    color: white;
 }
 
 .description img {
@@ -92,4 +94,22 @@
 .linkCV img:hover{
     background-color: #EEEBFF;
     border-radius: 50%;
+}
+
+.root{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    transform: translateY(100%);
+    transition: all 0.2s linear;
+}
+
+.project:hover .root {
+    transform: translateY(0);
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+.project:hover{
+    height: 300px;
 }

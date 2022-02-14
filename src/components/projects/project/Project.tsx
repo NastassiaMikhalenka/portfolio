@@ -41,19 +41,22 @@ export const Project = ({project}: PropsType) => {
                     <a onClick={prevQuote} className={classes.prev} id="prev">&#10094;</a>
                     <a onClick={nextQuote} className={classes.next} id="next">&#10095;</a>
                 </div>
-                <h2 className={classes.titleProject}>{project.title}</h2>
-                <div className={classes.description}>
-                    <div>
-                        <p className={classes.descriptionText}>{project.description}</p>
-                        {
-                            project.stacks.map((stack: any) => {
-                                return (
-                                    <span className={classes.stackText}>{stack} </span>
-                                )
-                            })
-                        }
+                <div>
+                    <div className={classes.root}>
+                    <h2 className={classes.titleProject}>{project.title}</h2>
+                    <div className={classes.description}>
+                            <p className={classes.descriptionText}>{project.description}</p>
+                            {
+                                project.stacks.map((stack: any) => {
+                                    return (
+                                        <span className={classes.stackText}>{stack} </span>
+                                    )
+                                })
+                            }
+                        </div>
+                        <a href={project.link} target="_blank" className={classes.linkCV}><img src={arrow_right}
+                                                                                               alt={"2"}/></a>
                     </div>
-                    <a href={project.link} target="_blank" className={classes.linkCV}><img src={arrow_right} alt={"2"}/></a>
                 </div>
             </div>
         </div>
