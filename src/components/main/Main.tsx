@@ -16,11 +16,11 @@ export const Main = () => {
                         <span className={classes.greetings_Name}>Nastassia</span>
                     </div>
                     <h2 className={classes.greetings_Vac}>Front end developer</h2>
-                    <p className={classes.greetings_Text}>Hi, I’m Nastassia. I'm a purposeful and highly motivated person.
-                        If you are looking for FE developer to build your brands and grow your business Let’s shake hands with me.</p>
+                    <p className={classes.greetings_Text}>Hi, I’m Nastassia. I'm highly-motivated web developer to pursuing long-term career change in front-end development. Very detail oriented and good at applying problem-solving and organizational skills fostered by working in various work environments. Eager to expand my skill set in front-end development in order to help you deliver coding excellence.</p>
                     <div className={classes.greetings_ContainerButtons}>
-                        <button className={classes.greetings_ButtonHireMe}>Hire me</button>
-                        <button className={classes.greetings_ButtonReadMore}>Read more</button>
+                        <a target="_blank"
+                           href={"https://drive.google.com/file/d/1i2OaoNaOV4F7wbTs6gq3caNhX4PTW5cP/view?usp=sharing"}><button className={classes.greetings_ButtonHireMe}>Download CV</button></a>
+                        {/*<button className={classes.greetings_ButtonReadMore}>Read more</button>*/}
                     </div>
                     <hr/>
                     <p className={classes.greetings_TextBottom}>I am currently open for full-time work.</p>
