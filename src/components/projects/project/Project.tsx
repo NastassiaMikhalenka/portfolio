@@ -34,29 +34,26 @@ export const Project = ({project}: PropsType) => {
     }
 
     return (
-        <div>
-            <div className={classes.project}>
-                <div className={classes.iconProject}>
-                    <img src={quote.image} alt={"#"}/>
-                    <a onClick={prevQuote} className={classes.prev} id="prev">&#10094;</a>
-                    <a onClick={nextQuote} className={classes.next} id="next">&#10095;</a>
-                </div>
-                <div>
-                    <div className={classes.root}>
-                    <h2 className={classes.titleProject}>{project.title}</h2>
-                    <div className={classes.description}>
-                            <p className={classes.descriptionText}>{project.description}</p>
-                            {
-                                project.stacks.map((stack: any) => {
-                                    return (
-                                        <span className={classes.stackText}>{stack} </span>
-                                    )
-                                })
-                            }
-                        </div>
-                        <a href={project.link} target="_blank" className={classes.linkCV}><img src={arrow_right}
-                                                                                               alt={"2"}/></a>
-                    </div>
+        <div className={classes.project}>
+            <div className={classes.iconProject}>
+                <img src={quote.image} alt={"#"}/>
+                <a onClick={prevQuote} className={classes.prev} id="prev">&#10094;</a>
+                <a onClick={nextQuote} className={classes.next} id="next">&#10095;</a>
+            </div>
+            <div className={classes.titleContainer}>
+                <h2 className={classes.titleProject}>{project.title}</h2>
+                <a href={project.link} target="_blank" className={classes.linkCV}><img src={arrow_right} alt={"2"}/></a>
+            </div>
+            <div className={classes.description}>
+                <p className={classes.descriptionText}>{project.description}</p>
+                <div className={classes.stacks}>
+                    {
+                        project.stacks.map((stack: any) => {
+                            return (
+                                <span className={classes.stackText}>{stack} </span>
+                            )
+                        })
+                    }
                 </div>
             </div>
         </div>

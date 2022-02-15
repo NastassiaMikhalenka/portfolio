@@ -31,13 +31,13 @@ export const Projects = () => {
 
     }
     const project3 = {
-        id: 1, title: 'E-commerce Shop', description: 'Created shopping store by React & Redux.', image: [
+        id: 1, title: 'E-commerce Shop', description: 'Created shopping store by React & Redux Created shopping store by React & Redux.', image: [
             {image: bite3,},
             {image: bite4,},
             {image: bite2,},
             {image: bite1,},
         ],
-        stacks: ['React', 'Components', 'Props', 'Events', 'Hooks', 'Router', 'Redux', 'Store', 'Reducers', 'Actions', 'CSS', 'HTML'],
+        stacks: ['React', 'Events', 'Hooks', 'Router', 'Redux'],
         link: 'https://NastassiaMikhalenka.github.io/bite',
     }
 

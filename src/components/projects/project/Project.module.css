@@ -1,27 +1,27 @@
 .project {
-    /*width: 300px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
-    padding: 20px;
     box-sizing: border-box;
-    /*border: 1px solid #3730a3;*/
     border-radius: 6px;
-    position: relative;
-    height: 220px;
+    height: 350px;
     width: 300px;
     overflow: hidden;
-    background-color: #FEF2F2;
-    transition: all 0.2s linear;
+    transition: all 0.25s ease-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    margin: 20px;
+}
+.project:hover{
+    transform: scale(1.1);
 }
 
 .iconProject {
     width: 100%;
     align-items: center;
     position: relative;
-    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 6px;
 }
 
 .prev, .next {
@@ -29,9 +29,14 @@
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -20px;
+    margin-top: -30px;
     color: #6B7280;
-    font-size: 30px;
+    font-size: 40px;
+    opacity: 0.1;
+    padding: 10px;
+}
+.prev:hover, .next:hover{
+    opacity: 1;
 }
 
 .next {
@@ -49,7 +54,11 @@
 .iconProject img {
     width: 100%;
     height: 100%;
-
+    border-radius: 6px;
+}
+.titleContainer{
+    display: flex;
+    padding-top: 5px;
 }
 
 .titleProject {
@@ -57,14 +66,15 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    color: white;
+    color: #6B7280;
 }
 
 .description {
     display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: left;
-    color: white;
+    color: #6B7280;
 }
 
 .description img {
@@ -72,6 +82,7 @@
 }
 
 .descriptionText {
+    text-align: center;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -79,13 +90,20 @@
     color: #6B7280;
 }
 
+.stacks{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .stackText {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: #ffffff;
-    background-color: #3730A3;
+    color: #3730A3;
+    background-color: #EEEBFFFF;
     margin-right: 5px;
     padding: 2px;
     border-radius: 3px;
@@ -94,22 +112,4 @@
 .linkCV img:hover{
     background-color: #EEEBFF;
     border-radius: 50%;
-}
-
-.root{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    color: white;
-    transform: translateY(100%);
-    transition: all 0.2s linear;
-}
-
-.project:hover .root {
-    transform: translateY(0);
-    /*background: rgba(0, 0, 0, 0.5);*/
-}
-.project:hover{
-    height: 300px;
 }
