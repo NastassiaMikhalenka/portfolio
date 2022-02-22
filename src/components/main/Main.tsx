@@ -20,7 +20,6 @@ export const Main = () => {
                     <div className={classes.greetings_ContainerButtons}>
                         <a target="_blank"
                            href={"https://drive.google.com/file/d/1i2OaoNaOV4F7wbTs6gq3caNhX4PTW5cP/view?usp=sharing"}><button className={classes.greetings_ButtonHireMe}>Download CV</button></a>
-                        {/*<button className={classes.greetings_ButtonReadMore}>Read more</button>*/}
                     </div>
                     <hr/>
                     <p className={classes.greetings_TextBottom}>I am currently open for full-time work.</p>

@@ -74,23 +74,17 @@
     color: #6B7280;
 }
 
-.greetings_ButtonHireMe,
-.greetings_ButtonReadMore {
-    border: none;
+.greetings_ButtonHireMe {
     outline: none;
     border-radius: 6px;
     padding: 8px 28px;
     cursor: pointer;
-    margin: 20px 0 20px 0;
     transition: 0.3s linear;
 
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-}
-
-.greetings_ButtonHireMe {
     background-color: #3730A3;
     color: #ffffff;
     border: 1px solid #3730A3;
@@ -98,20 +92,9 @@
     margin-right: 10px;
 }
 
-.greetings_ButtonReadMore {
-    background-color: #ffffff;
-    border: 1px solid #3730A3;
-    box-sizing: border-box;
-    color: #3730A3;
-}
-
 .greetings_ButtonHireMe:hover{
     background-color: #6860d3;
     border: 1px solid #6860d3;
-}
-.greetings_ButtonReadMore:hover{
-    background-color: #EEEBFF;
-    border: 1px solid #EEEBFF;
 }
 
 .greetings_TextBottom {
@@ -127,8 +110,6 @@
     width: 300px;
     height: 400px;
     background-color: #ffa9a9;
-    /*background: url('src/components/assets/Skills/me1.jpg');*/
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
     border-radius: 6px;
 }
 
