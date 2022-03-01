@@ -15,7 +15,7 @@ export const Main = () => {
     };
 
     return (
-        <main className={classes.mainBlock} id='Main'>
+        <section className={classes.mainBlock} id='Main'>
             <div className={classes.area}>
                 <ul className={classes.circles}>
                     <li></li>
@@ -56,6 +56,6 @@ export const Main = () => {
             </div>
             <img className={classes.btnScroll} onClick={handleExpandClick}
                  src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/48/000000/external-arrow-arrows-those-icons-lineal-color-those-icons-1.png"/>
-        </main>
+        </section>
     )
 }

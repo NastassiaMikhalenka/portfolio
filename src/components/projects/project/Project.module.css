@@ -1,12 +1,10 @@
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    /*top: 33%;*/
     width: auto;
     margin-top: -39px;
     color: #EEEBFF;
     font-size: 40px;
-    /*opacity: 0.7;*/
     padding: 10px;
     z-index: 9999;
 }
@@ -27,87 +25,15 @@
     left: -15px;
 }
 
-/*.titleProject {*/
-/*    font-style: normal;*/
-/*    font-weight: bold;*/
-/*    font-size: 1em;*/
-/*    line-height: 22px;*/
-/*    padding-bottom: 5px;*/
-/*    color: #1F2937;*/
-/*    text-align: left;*/
-/*}*/
-
-/*.description {*/
-/*    text-align: left;*/
-/*    color: #6B7280;*/
-/*    font-size: 1em;*/
-/*    line-height: 18px;*/
-/*}*/
-
 .projectWrapper {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    /*!*float: left;*!*/
-    /*overflow: hidden;*/
-    /*margin: 15px;*/
-    /*min-width: 250px;*/
-    /*max-width: 350px;*/
-    /*max-height: 350px;*/
-    /*text-align: center;*/
-    /*cursor: pointer;*/
-    /*box-shadow: 0 2px 4px rgba(0, 0, 0, .2);*/
 }
 
-/*.projectWrapper:hover {*/
-/*    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);*/
-/*}*/
-/*.iconProject img {*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*}*/
-
-
-/*.icon_links img {*/
-/*    width: 30px;*/
-/*}*/
-/*.descriptionProject {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-items: flex-start;*/
-/*}*/
-
-/*.descriptionProject_title{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-
-/*.projectWrapper .descriptionProject {*/
-/*    top: auto;*/
-/*    bottom: 0;*/
-/*    padding: 1em;*/
-/*    height: 8em;*/
-/*    background-color: #B4A6A2;*/
-/*    color: #3c4a50;*/
-/*    -webkit-transition: -webkit-transform 0.35s;*/
-/*    transition: transform 0.35s;*/
-/*    -webkit-transform: translateY(100%);*/
-/*    transform: translateY(100%);*/
-/*}*/
-
-/*.projectWrapper:hover .descriptionProject{*/
-/*    -webkit-transform: translate3d(0, 0, 0);*/
-/*    transform: translate3d(0, 0, 0);*/
-/*}*/
-
-
 .card {
-    /*color:#222;*/
     width: 350px;
     height: 290px;
-    /*position:absolute;*/
-    /*top:480px; left: 0; right:0; bottom:0;*/
-    /*margin:auto;*/
     margin-top: 120px;
     box-shadow: 0 30px 30px -20px rgba(0, 0, 0, 0.2);
     transition: all .2s cubic-bezier(1, .4, .4, .6);
