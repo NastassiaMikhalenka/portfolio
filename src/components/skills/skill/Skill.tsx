@@ -1,47 +1,55 @@
 import React from 'react';
 import classes from './Skill.module.css'
-import javascript from '../../assets/Skills/javascript.png';
-import typescript from '../../assets/Skills/typescript.png';
-import html from '../../assets/Skills/html.png';
-import css from '../../assets/Skills/css.png';
-import redux from '../../assets/Skills/redux.png';
-import react from '../../assets/Skills/react.png';
+// @ts-ignore
+import Slide from 'react-reveal/Slide';
 
 
-export const Skill = () => {
+type PropsType = {
+    skill: any
+}
+
+export const Skill = ({skill}: PropsType) => {
     return (
-        <div className={classes.skillWrapper}>
-            <div className={classes.skillItemWrapper}>
-                <img src={javascript} alt={"javascript"}/>
-                <p>JavaScript</p>
+        <Slide bottom>
+            <div className={classes.skillWrapper}>
+                <div className={classes.skill}>
+                    <div className={classes.icon}>
+                        <img src={skill.titleIcon} alt={"development"}/>
+                    </div>
+                    <p className={classes.text}>{skill.title}</p>
+                    <div className={classes.tech}>
+                        {
+                            skill.icon.map((m: any) => {
+                                return (
+                                    <div className={classes.anim_icon}>
+                                        <img src={m.img} alt={m.name} title={m.name}/>
+                                    </div>
+                                )
+                            })
+                        }
+                        {/*<div className={classes.tech}>*/}
+                        {/*    <div className={classes.anim_icon}>*/}
+                        {/*        <img src={typescript} alt={"typescript"} title="TYPESCRIPT"/>*/}
+                        {/*    </div>*/}
+                        {/*<div className={classes.anim_icon}>*/}
+                        {/*    <img src={javascript} alt={"javascript"} title="JAVASCRIPT"/>*/}
+                        {/*</div>*/}
+                        {/*<div className={classes.anim_icon}>*/}
+                        {/*    <img src="https://img.icons8.com/ultraviolet/100/000000/react--v2.png" title="REACT"*/}
+                        {/*         alt={"react"}/>*/}
+                        {/*</div>*/}
+                        {/*<div className={classes.anim_icon}>*/}
+                        {/*    <img src="https://img.icons8.com/color/100/000000/redux.png" title="REDUX" alt={"redux"}/>*/}
+                        {/*</div>*/}
+                        {/*<div className={classes.anim_icon}>*/}
+                        {/*    <img src="https://img.icons8.com/color/100/000000/html-5--v1.png" title="HTML" alt={"html"}/>*/}
+                        {/*</div>*/}
+                        {/*<div className={classes.anim_icon}>*/}
+                        {/*    <img src="https://img.icons8.com/color/100/000000/css3.png" title="CSS" alt={"css"}/>*/}
+                        {/*</div>*/}
+                    </div>
+                </div>
             </div>
-            <div className={classes.skillItemWrapper}>
-                <img src={typescript} alt={"typescript"}/>
-                <p>TypeScript</p>
-            </div>
-            <div className={classes.skillItemWrapper}>
-                <img src={html} alt={"html"}/>
-                <p>HTML</p>
-            </div>
-            <div className={classes.skillItemWrapper}>
-                <img src={css} alt={"css"}/>
-                <p>CSS</p>
-            </div>
-            <div className={classes.skillItemWrapper}>
-                <img src={redux} alt={"redux"}/>
-                <p>Redux</p>
-            </div>
-            <div className={classes.skillItemWrapper}>
-                <img src={react} alt={"react"}/>
-                <p>React</p>
-            </div>
-
-            {/*<div className={classes.iconSkill}>*/}
-            {/*    <img src={props.icon} alt={"#"} width={"70px"}/>*/}
-            {/*</div>*/}
-            {/*<h3>{props.title}</h3>*/}
-            {/*<span className={classes.description}>{props.description}</span>*/}
-            {/*<a href={props.link}>{props.nameLink}</a>*/}
-        </div>
+        </Slide>
     )
 }

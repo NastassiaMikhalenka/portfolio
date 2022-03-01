@@ -12,41 +12,51 @@ import Trevland3 from '../assets/ProjectsImg/Trevland/Trevland3.jpeg'
 
 export const Projects = () => {
     const project1 = {
-        id: 1, title: 'The card game memory', description: 'It is a long established fact that a reader will be', image: [
+        id: 1,
+        title: 'The card game memory',
+        description: 'It is a long established fact that a reader will be',
+        image: [
             {image: `https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear2.jpeg`,},
             {image: `https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear1.jpeg`},
             {image: `https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear3.jpeg`,},
         ],
-        stacks: ['React', 'TS',],
         link: 'https://nastassiamikhalenka.github.io/new-year-game/',
+        linkGitHub: 'https://nastassiamikhalenka.github.io/traveland/',
     }
     const project2 = {
-        id: 1, title: 'Landing Page Trevland', description: 'This landing page for travel agency. There are also a few areas with JS.', image: [
+        id: 1,
+        title: 'Landing Page Trevland',
+        description: 'This landing page for travel agency. There are also a few areas with JS. This landing page for travel agency. There are also a few areas with JS.',
+        image: [
             {image: Trevland1,},
             {image: Trevland2,},
             {image: Trevland3,},
         ],
-        stacks: ['JS','HTML','CSS',],
         link: 'https://nastassiamikhalenka.github.io/traveland/',
+        linkGitHub: 'https://nastassiamikhalenka.github.io/traveland/',
 
     }
     const project3 = {
-        id: 1, title: 'E-commerce Shop', description: 'Created shopping store by React & Redux Created shopping store by React & Redux.', image: [
+        id: 1,
+        title: 'E-commerce Shop',
+        description: 'Created shopping store by React & Redux Created shopping store by React & Redux.',
+        image: [
             {image: bite3,},
             {image: bite4,},
             {image: bite2,},
             {image: bite1,},
         ],
-        stacks: ['React', 'Events', 'Hooks', 'Router', 'Redux'],
         link: 'https://NastassiaMikhalenka.github.io/bite',
+        linkGitHub: 'https://nastassiamikhalenka.github.io/traveland/',
     }
 
     return (
-        <section className={classes.projectsBlock} id={'projects'}>
+        <section className={classes.projectsBlock} id={'Projects'}>
             <div className={classes.containerProjects}>
                 <h2 className={classes.titleProjects}>Projects</h2>
                 <div className={classes.projects}>
-                    <Project project={project1}/>
+                    <Project project={project2}/>
+                    <Project project={project2}/>
                     <Project project={project2}/>
                     <Project project={project3}/>
                     <Project project={project1}/>

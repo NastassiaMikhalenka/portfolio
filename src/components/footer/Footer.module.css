@@ -14,6 +14,18 @@
     flex-wrap: wrap;
 }
 
+.btnUp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.btnUp img {
+    cursor: pointer;
+}
+
 .linksWrapper {
     width: 100%;
     display: flex;
@@ -26,11 +38,12 @@
     height: 35px;
 }
 
-.linkContainer{
+.linkContainer {
     padding: 10px 10px 0 10px;
     /*border: 1px solid;*/
     border-radius: 50%;
 }
+
 .linkContainer:hover {
     background-color: #EEEBFF
 }
