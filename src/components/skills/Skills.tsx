@@ -1,25 +1,84 @@
 import React from 'react';
-// @ts-ignore
 import {Skill} from './skill/Skill';
 import classes from './Skills.module.css';
-// import iconsCV from '../assets/Skills/iconsCV.png'
-// import CV from '../assets/Skills/CV.png'
-import CVDone from '../assets/Skills/CVdone.png'
+import javascript from '../assets/Skills/javascript.png';
+import development from '../assets/Skills/development.png';
+import typescript from '../assets/Skills/typescript.png';
+import storybook from '../assets/Skills/storybook.png';
 
 
 export const Skills = () => {
+    const developmentSkill = {
+        id: 1,
+        titleIcon: development,
+        title: 'development',
+        icon: [
+            {
+                img: javascript,
+                name: 'JS'
+            },
+            {
+                img: typescript,
+                name: 'TS'
+            },
+            {
+                img: 'https://img.icons8.com/ultraviolet/100/000000/react--v2.png',
+                name: 'REACT'
+            },
+            {
+                img: "https://img.icons8.com/color/100/000000/redux.png",
+                name: 'REDUX'
+            },
+            {
+                img: 'https://img.icons8.com/color/100/000000/html-5--v1.png',
+                name: 'HTML'
+            },
+            {
+                img: "https://img.icons8.com/color/100/000000/css3.png",
+                name: 'CSS'
+            },
+        ],
+    }
+    const testingSkill = {
+        id: 2,
+        titleIcon: "https://img.icons8.com/external-others-phat-plus/100/000000/external-testing-cloud-computing-outline-others-phat-plus.png",
+        title: 'testing',
+        icon: [
+            {
+                img: "https://img.icons8.com/external-tal-revivo-filled-tal-revivo/100/000000/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-filled-tal-revivo.png",
+                name: 'JEST'
+            },
+            {
+                img: storybook,
+                name: 'STORYBOOK'
+            },
+        ],
+    }
+
+    const designSkill = {
+        id: 2,
+        titleIcon: "https://img.icons8.com/external-sbts2018-outline-sbts2018/100/000000/external-design-design-thinking2-sbts2018-outline-sbts2018-1.png",
+        title: 'design',
+        icon: [
+            {
+                img: "https://img.icons8.com/color/100/000000/figma--v1.png",
+                name: 'FIGMA'
+            },
+            {
+                img: "https://img.icons8.com/color/100/000000/adobe-photoshop--v1.png",
+                name: 'PHOTOSHOP'
+            },
+        ],
+    }
+
     return (
-        <section className={classes.skillsBlock} id={'skills'}>
+        <section className={classes.skillsBlock} id='Skills'>
             <div className={classes.containerSkills}>
                 <h2 className={classes.titleSkills}>Skills</h2>
-                <div className={classes.skillsWrapperContainer}>
-                    <div className={classes.skillsWrapper}>
-                        <Skill />
-                    </div>
-                    <div className={classes.wrapperContainerCV}>
-                        <img src={CVDone} alt={'CV'}/>
-                        <span className={classes.textCV}>Kindly take a look at my <a href={'https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear1.jpeg'} target='_blank'>CV</a></span>
-                    </div>
+                <div className={classes.skillsWrapper}>
+                    <Skill skill={developmentSkill}/>
+                    <Skill skill={testingSkill}/>
+                    <Skill skill={designSkill}/>
                 </div>
             </div>
         </section>

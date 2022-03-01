@@ -6,7 +6,7 @@ import Ellipse from '../assets/Header/Ellipse.png'
 
 export const Header = () => {
     return (
-        <header className={classes.header}>
+        <header className={classes.header} id={'header'}>
             <div>
                 <img src={Ellipse} alt={'icon'}/>
             </div>

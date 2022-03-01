@@ -1,7 +1,7 @@
 .footerBlock {
     /*min-height: 200px;*/
     background-color: #FEF2F2;
-    padding: 30px 0;
+    /*padding: 30px 0;*/
 }
 
 .containerFooter {
@@ -14,6 +14,28 @@
     flex-wrap: wrap;
 }
 
+.titleFooter{
+    font-style: inherit;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 72px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.btnUp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.btnUp img {
+    cursor: pointer;
+}
+
+
 .linksWrapper {
     width: 100%;
     display: flex;
@@ -22,15 +44,16 @@
 }
 
 .linksWrapper img {
-    width: 35px;
-    height: 35px;
+    width: 75px;
+    height: 75px;
 }
 
-.linkContainer{
+.linkContainer {
     padding: 10px 10px 0 10px;
     /*border: 1px solid;*/
     border-radius: 50%;
 }
+
 .linkContainer:hover {
-    background-color: #EEEBFF
+    background-color: #EEEBFF;
 }
