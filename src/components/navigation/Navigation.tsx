@@ -12,12 +12,37 @@ export const Navigation = () => {
             smooth: true,
         });
     };
+
+    const [open, setOpen] = useState(false)
+
+    const handlerClick = (e: any) => {
+        e.preventDefault()
+        setOpen(!open)
+    }
+
+    const handlerClickFalse = () => {
+        setOpen(false)
+    }
+
     return (
-        <nav className={classes.navigation}>
-            <a href={"#home"} onClick={() => handleExpandClick('Main')}>Home</a>
-            <a href={"#skills"} onClick={() => handleExpandClick('Skills')}>Skills</a>
-            <a href={"#projects"} onClick={() => handleExpandClick('Projects')}>Works</a>
-            <a href={"#contacts"} onClick={() => handleExpandClick('Contacts')}>Contacts</a>
-        </nav>
+        <>
+            <nav className={open ? classes.navigation + ' ' + classes.active : classes.navigation}>
+                <a href={"#home"} onClick={() => handleExpandClick('Main')} onBlur={handlerClickFalse}>Home</a>
+                <a href={"#skills"} onClick={() => handleExpandClick('Skills')} onBlur={handlerClickFalse}>Skills</a>
+                <a href={"#projects"} onClick={() => handleExpandClick('Projects')}>Works</a>
+                <a href={"#contacts"} onClick={() => handleExpandClick('Contacts')}>Contacts</a>
+            </nav>
+            <div className={classes.hamburger}>
+                {
+                    open
+                        ? <img
+                            src={'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-round-256.png'}
+                            alt={'hamburgerOpen'} onClick={handlerClick}/>
+                        :
+                        <img src={'https://cdn-icons-png.flaticon.com/128/56/56763.png'} alt={'hamburgerClose'}
+                             onClick={handlerClick}/>
+                }
+            </div>
+        </>
     )
 }
