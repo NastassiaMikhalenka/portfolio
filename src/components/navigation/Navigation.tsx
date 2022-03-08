@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import classes from './navigation.module.css'
 // @ts-ignore
 import {scroller} from 'react-scroll';
+import hamburgerOpen from '../assets/Header/hamburgerOpen.png'
+import hamburgerClose from '../assets/Header/hamburgerClose.png'
 
 
 export const Navigation = () => {
@@ -11,6 +13,7 @@ export const Navigation = () => {
             delay: 100,
             smooth: true,
         });
+        setOpen(false)
     };
 
     const [open, setOpen] = useState(false)
@@ -20,15 +23,11 @@ export const Navigation = () => {
         setOpen(!open)
     }
 
-    const handlerClickFalse = () => {
-        setOpen(false)
-    }
-
     return (
         <>
             <nav className={open ? classes.navigation + ' ' + classes.active : classes.navigation}>
-                <a href={"#home"} onClick={() => handleExpandClick('Main')} onBlur={handlerClickFalse}>Home</a>
-                <a href={"#skills"} onClick={() => handleExpandClick('Skills')} onBlur={handlerClickFalse}>Skills</a>
+                <a href={"#home"} onClick={() => handleExpandClick('Main')}>Home</a>
+                <a href={"#skills"} onClick={() => handleExpandClick('Skills')}>Skills</a>
                 <a href={"#projects"} onClick={() => handleExpandClick('Projects')}>Works</a>
                 <a href={"#contacts"} onClick={() => handleExpandClick('Contacts')}>Contacts</a>
             </nav>
@@ -36,10 +35,10 @@ export const Navigation = () => {
                 {
                     open
                         ? <img
-                            src={'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-round-256.png'}
-                            alt={'hamburgerOpen'} onClick={handlerClick}/>
+                            src={hamburgerClose}
+                            alt={'hamburgerClose'} onClick={handlerClick}/>
                         :
-                        <img src={'https://cdn-icons-png.flaticon.com/128/56/56763.png'} alt={'hamburgerClose'}
+                        <img src={hamburgerOpen} alt={'hamburgerOpen'}
                              onClick={handlerClick}/>
                 }
             </div>

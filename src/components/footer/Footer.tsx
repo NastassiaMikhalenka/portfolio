@@ -18,7 +18,7 @@ export const Footer = () => {
         });
     };
     return (
-        <footer className={classes.footerBlock}>
+        <footer className={classes.footerBlock} id={'Contacts'}>
             <div className={classes.containerFooter}>
                 <h2 className={classes.titleFooter}>Contact Me</h2>
                 <div className={classes.linksWrapper}>
