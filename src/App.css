@@ -10,7 +10,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    max-width: 1440px;
 }
 
 body {
@@ -20,10 +19,3 @@ body {
     line-height: 28px;
     user-select: none;
 }
-
-/*.App {*/
-/*    width: 80%;*/
-/*    margin: auto;*/
-/*}*/
-
-
