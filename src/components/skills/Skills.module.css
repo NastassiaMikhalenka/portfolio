@@ -21,6 +21,7 @@
 .skillsWrapper {
     padding-bottom: 30px;
     display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 922px) {
