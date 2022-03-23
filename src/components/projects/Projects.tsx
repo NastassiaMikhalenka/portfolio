@@ -2,7 +2,7 @@ import React from 'react';
 // @ts-ignore
 import classes from './Projects.module.css';
 import {Project} from "./project/Project";
-import {project1, project2, project3, project4, project5} from "./ProjectsDescription";
+import {project1, project2, project3, project4, project5, project6} from "./ProjectsDescription";
 
 export const Projects = () => {
     return (
@@ -13,7 +13,8 @@ export const Projects = () => {
                     <Project project={project4}/>
                     <Project project={project5}/>
                     <Project project={project1}/>
-                    <Project project={project2}/>
+                    <Project project={project6}/>
+                    {/*<Project project={project2}/>*/}
                     <Project project={project3}/>
                 </div>
             </div>

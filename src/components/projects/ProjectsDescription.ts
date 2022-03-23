@@ -14,6 +14,7 @@ import QuizCards6 from '../assets/ProjectsImg/QuizCards/QuizCards6.png'
 import AviaSales1 from '../assets/ProjectsImg/Aviasales/Aviasales1.png'
 import AviaSales2 from '../assets/ProjectsImg/Aviasales/Aviasales2.png'
 import AviaSales3 from '../assets/ProjectsImg/Aviasales/Aviasales3.png'
+import gallery from '../assets/ProjectsImg/Gallery/gallery.png'
 
 
 
@@ -83,4 +84,15 @@ export const project5 = {
     ],
     link: 'https://nastassiamikhalenka.github.io/aviasales/',
     linkGitHub: 'https://github.com/NastassiaMikhalenka/aviasales',
+}
+
+export const project6 = {
+    id: 1,
+    title: 'Gallery',
+    description: 'Created app by React & Redux',
+    image: [
+        {image: gallery,},
+    ],
+    link: 'https://nastassiamikhalenka.github.io/gallery/',
+    linkGitHub: 'https://github.com/NastassiaMikhalenka/gallery',
 }
