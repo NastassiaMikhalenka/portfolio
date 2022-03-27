@@ -132,3 +132,16 @@
 .card > .buttons > a > img:hover {
     background: #ded7fc;
 }
+
+@media (max-width: 470px) {
+    .card {
+        width: 360px;
+        height: 355px;
+    }
+    .card > .box {
+        width: 340px;
+    }
+    .card > .box > .text_block{
+        top: 95px;
+    }
+}
