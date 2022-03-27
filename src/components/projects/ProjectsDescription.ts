@@ -15,13 +15,16 @@ import AviaSales1 from '../assets/ProjectsImg/Aviasales/Aviasales1.png'
 import AviaSales2 from '../assets/ProjectsImg/Aviasales/Aviasales2.png'
 import AviaSales3 from '../assets/ProjectsImg/Aviasales/Aviasales3.png'
 import gallery from '../assets/ProjectsImg/Gallery/gallery.png'
+import ToDoList from '../assets/ProjectsImg/ToDoList/todolist.png'
+import ToDoList2 from '../assets/ProjectsImg/ToDoList/todolist2.png'
 
 
 
 export const project1 = {
     id: 1,
     title: 'The card game memory',
-    description: 'It is a long established fact that a reader will be',
+    description: `I've created App with the feature of changing level. The object of the game is to turn over pairs of matching cards.`,
+    stack: 'React JS, TypeScript, Module CSS.',
     image: [
         {image: `https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear2.jpeg`,},
         {image: `https://github.com/NastassiaMikhalenka/new-year-game/raw/master/src/assets/NewYear1.jpeg`},
@@ -46,13 +49,14 @@ export const project2 = {
 export const project3 = {
     id: 1,
     title: 'E-commerce Shop',
-    description: 'Created shopping store by React & Redux Created shopping store by React & Redux.',
+    description: `I've created App 'Shopping store' with the feature of adding items count and decreasing item count.`,
     image: [
         {image: bite3,},
         {image: bite4,},
         {image: bite2,},
         {image: bite1,},
     ],
+    stack: 'React JS, Redux, Module CSS.',
     link: 'https://NastassiaMikhalenka.github.io/bite',
     linkGitHub: 'https://github.com/NastassiaMikhalenka/bite',
 }
@@ -60,7 +64,7 @@ export const project3 = {
 export const project4 = {
     id: 1,
     title: 'Quiz Cards',
-    description: 'Teamwork. Created app by React & Redux',
+    description: `Teamwork. We've created Login, Registration, Profile, Packs Pages, etc. There is action to get and to learn cards. App includes allowing u to edit items, and sorting items.`,
     image: [
         {image: QuizCards1,},
         {image: QuizCards2,},
@@ -69,6 +73,9 @@ export const project4 = {
         {image: QuizCards5,},
         {image: QuizCards6,},
     ],
+    readMore: ' Read more info...',
+    readMoreLink: `https://github.com/NastassiaMikhalenka/projectcards/blob/master/README.md`,
+    stack: 'React, TypeScript, Redux, Redux-Thunk, react-router-dom, Axios.',
     link: 'https://nastassiamikhalenka.github.io/projectcards/',
     linkGitHub: 'https://github.com/NastassiaMikhalenka/projectcards',
 }
@@ -76,12 +83,13 @@ export const project4 = {
 export const project5 = {
     id: 1,
     title: 'AviaSales',
-    description: 'Created app by React & Redux',
+    description: 'Application lets you create custom process of searching tickets to flights.',
     image: [
         {image: AviaSales1,},
         {image: AviaSales2,},
         {image: AviaSales3,},
     ],
+    stack: 'React JS, Redux, Redux-Thunk, Axios, Module CSS.',
     link: 'https://nastassiamikhalenka.github.io/aviasales/',
     linkGitHub: 'https://github.com/NastassiaMikhalenka/aviasales',
 }
@@ -89,10 +97,23 @@ export const project5 = {
 export const project6 = {
     id: 1,
     title: 'Gallery',
-    description: 'Created app by React & Redux',
+    description: 'Gallery lets you search pictures.',
+    stack: 'React JS, React Hooks, Axios.',
     image: [
         {image: gallery,},
     ],
     link: 'https://nastassiamikhalenka.github.io/gallery/',
     linkGitHub: 'https://github.com/NastassiaMikhalenka/gallery',
+}
+export const project7 = {
+    id: 1,
+    title: 'ToDoList',
+    description: `I've created app which includes allowing u to fetch the list of tasks, also u can edit tasks, and filtering the list of tasks between all, completed, and incomplete tasks.`,
+    stack: 'React JS, TypeScript, Redux, Redux-Thunk, Axios, Material UI.',
+    image: [
+        {image: ToDoList,},
+        {image: ToDoList2,},
+    ],
+    link: 'https://NastassiaMikhalenka.github.io/todolist/',
+    linkGitHub: 'https://github.com/NastassiaMikhalenka/todolist',
 }

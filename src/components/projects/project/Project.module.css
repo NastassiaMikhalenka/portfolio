@@ -32,8 +32,8 @@
 }
 
 .card {
-    width: 350px;
-    height: 290px;
+    width: 400px;
+    height: 340px;
     margin-top: 120px;
     box-shadow: 0 30px 30px -20px rgba(0, 0, 0, 0.2);
     transition: all .2s cubic-bezier(1, .4, .4, .6);
@@ -46,10 +46,10 @@
 }
 
 .card > .box {
-    width: 320px;
-    height: 200px;
+    width: 380px;
+    height: 290px;
     position: absolute;
-    left: 15px;
+    left: 10px;
     bottom: 23px;
     margin: auto;
     box-shadow: 0 -10px 35px -5px rgba(0, 0, 0, 0.06);
@@ -60,7 +60,7 @@
 .card > .box > img {
     position: absolute;
     top: -100px;
-    left: 15px;
+    left: 18px;
     width: 90%;
     margin: auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -68,7 +68,7 @@
 
 .card > .box > .text_block {
     position: absolute;
-    top: 85px;
+    top: 115px;
     left: 20px;
     right: 20px;
 }
@@ -82,12 +82,19 @@
     text-transform: uppercase;
 }
 
-.card > .box > .text_block > .description {
+.card > .box > .text_block > .description,
+.card > .box > .text_block > .description a {
+    text-decoration: none;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 24px;
     color: #6B7280;
+}
+
+.card > .box > .text_block > .description a {
+    font-weight: bold;
+    border-bottom: #374151 solid 1px;
 }
 
 .card > .buttons {
@@ -104,6 +111,7 @@
     bottom: -25px;
     opacity: 1;
 }
+
 .buttons img {
     width: 150px;
 }

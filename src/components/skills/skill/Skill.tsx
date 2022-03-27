@@ -28,26 +28,6 @@ export const Skill = ({skill}: PropsType) => {
                                 )
                             })
                         }
-                        {/*<div className={classes.tech}>*/}
-                        {/*    <div className={classes.anim_icon}>*/}
-                        {/*        <img src={typescript} alt={"typescript"} title="TYPESCRIPT"/>*/}
-                        {/*    </div>*/}
-                        {/*<div className={classes.anim_icon}>*/}
-                        {/*    <img src={javascript} alt={"javascript"} title="JAVASCRIPT"/>*/}
-                        {/*</div>*/}
-                        {/*<div className={classes.anim_icon}>*/}
-                        {/*    <img src="https://img.icons8.com/ultraviolet/100/000000/react--v2.png" title="REACT"*/}
-                        {/*         alt={"react"}/>*/}
-                        {/*</div>*/}
-                        {/*<div className={classes.anim_icon}>*/}
-                        {/*    <img src="https://img.icons8.com/color/100/000000/redux.png" title="REDUX" alt={"redux"}/>*/}
-                        {/*</div>*/}
-                        {/*<div className={classes.anim_icon}>*/}
-                        {/*    <img src="https://img.icons8.com/color/100/000000/html-5--v1.png" title="HTML" alt={"html"}/>*/}
-                        {/*</div>*/}
-                        {/*<div className={classes.anim_icon}>*/}
-                        {/*    <img src="https://img.icons8.com/color/100/000000/css3.png" title="CSS" alt={"css"}/>*/}
-                        {/*</div>*/}
                     </div>
                 </div>
             </div>

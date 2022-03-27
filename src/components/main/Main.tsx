@@ -37,15 +37,13 @@ export const Main = () => {
                         <div className={classes.greetings_ContainerName}>
                             <span className={classes.greetings_Name}>Nastassia</span>
                         </div>
-                        <h2 className={classes.greetings_Vac}>Front end developer</h2>
-                        <p className={classes.greetings_Text}>Hi, I’m Nastassia. I'm highly-motivated web developer to
-                            pursuing long-term career change in front-end development. Very detail oriented and good at
-                            applying problem-solving and organizational skills fostered by working in various work
-                            environments. Eager to expand my skill set in front-end development in order to help you
-                            deliver coding excellence.</p>
+                        <h2 className={classes.greetings_Vac}>Front-end developer</h2>
+                        <p className={classes.greetings_Text}>Hi! I’m a Front-End Developer. I like to resolve design problems, create user interface and imagine useful interaction.
+                            Well-organised person, problem solver, independent employee with high attention to detail.
+                            Eager to improve my skill set in front-end development in order to help youdeliver coding excellence.</p>
                         <div className={classes.greetings_ContainerButtons}>
                             <a target="_blank"
-                               href={"https://drive.google.com/file/d/1i2OaoNaOV4F7wbTs6gq3caNhX4PTW5cP/view?usp=sharing"}>
+                               href={"https://drive.google.com/file/d/1k07xTLmHRK-QZ6Ab1WLly_jAilLUdGtu/view?usp=sharing"}>
                                 <button className={classes.greetings_ButtonHireMe}>Download CV</button>
                             </a>
                         </div>
