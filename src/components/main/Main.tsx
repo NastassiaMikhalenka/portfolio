@@ -43,7 +43,7 @@ export const Main = () => {
                             Eager to improve my skill set in front-end development in order to help youdeliver coding excellence.</p>
                         <div className={classes.greetings_ContainerButtons}>
                             <a target="_blank"
-                               href={"https://drive.google.com/file/d/1k07xTLmHRK-QZ6Ab1WLly_jAilLUdGtu/view?usp=sharing"}>
+                               href={"https://drive.google.com/file/d/18-KaR3H-Vjgtk5mvGaRqU2ts5cR1kWk7/view?usp=sharing"}>
                                 <button className={classes.greetings_ButtonHireMe}>Download CV</button>
                             </a>
                         </div>
