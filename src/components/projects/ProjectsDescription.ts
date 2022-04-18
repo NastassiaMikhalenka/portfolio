@@ -17,6 +17,10 @@ import AviaSales3 from '../assets/ProjectsImg/Aviasales/Aviasales3.png'
 import gallery from '../assets/ProjectsImg/Gallery/gallery.png'
 import ToDoList from '../assets/ProjectsImg/ToDoList/todolist.png'
 import ToDoList2 from '../assets/ProjectsImg/ToDoList/todolist2.png'
+import Panel1 from '../assets/ProjectsImg/Admin-panel/Panel1.png'
+import Panel2 from '../assets/ProjectsImg/Admin-panel/Panel2.png'
+import Panel3 from '../assets/ProjectsImg/Admin-panel/Panel3.png'
+
 
 
 
@@ -116,4 +120,18 @@ export const project7 = {
     ],
     link: 'https://NastassiaMikhalenka.github.io/todolist/',
     linkGitHub: 'https://github.com/NastassiaMikhalenka/todolist',
+}
+
+export const project8 = {
+    id: 1,
+    title: 'Learning Angular',
+    description: `Implementing UI by using Angular. Fetching data from API using HttpClient and rendering them.`,
+    stack: 'Angular, CSS',
+    image: [
+        {image: Panel1,},
+        {image: Panel2,},
+        {image: Panel3,},
+    ],
+    link: 'https://github.com/NastassiaMikhalenka/admin-panel',
+    linkGitHub: 'https://github.com/NastassiaMikhalenka/admin-panel',
 }

@@ -38,9 +38,11 @@ export const Main = () => {
                             <span className={classes.greetings_Name}>Nastassia</span>
                         </div>
                         <h2 className={classes.greetings_Vac}>Front-end developer</h2>
-                        <p className={classes.greetings_Text}>Hi! I’m a Front-End Developer. I like to resolve design problems, create user interface and imagine useful interaction.
+                        <p className={classes.greetings_Text}>Hi! I’m a Front-End Developer. I like to resolve design
+                            problems, create user interface and imagine useful interaction.
                             Well-organised person, problem solver, independent employee with high attention to detail.
-                            Eager to improve my skill set in front-end development in order to help youdeliver coding excellence.</p>
+                            Eager to improve my skill set in front-end development in order to help youdeliver coding
+                            excellence.</p>
                         <div className={classes.greetings_ContainerButtons}>
                             <a target="_blank"
                                href={"https://drive.google.com/file/d/18-KaR3H-Vjgtk5mvGaRqU2ts5cR1kWk7/view?usp=sharing"}>
